@@ -1,0 +1,127 @@
+.box {
+    margin: 5px;
+    border: 5px solid lightgrey;
+    /*color: red;*/
+    background-color: lightgrey;
+    width : 40px;
+    height : 40px;
+    text-align: center;
+    text-shadow: 2px 2px grey;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: monospace;
+}
+.menu {
+    /*margin: 5px;*/
+    /*border: 5px solid lightgrey;*/
+    /*color: red;*/
+    /*background-color: lightgrey;*/
+    width : 48px;
+    height : 36px;
+    text-align: center;
+    text-shadow: 2px 2px grey;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: monospace;
+    cursor: default;
+}
+
+.selected {
+    background-color: purple;
+}
+
+.center
+{
+      margin: auto;
+}
+
+.boxSelected
+{
+    outline: 3px dashed black;
+}
+
+.boxUnselected
+{
+    background-color: lightblue;
+}
+
+.boxRock
+{
+    border: 5px solid grey;
+    background-color: grey; 
+}
+
+.boxWet
+{
+    border-style: dotted;
+    border-color: blue;
+    border-width: 5px;
+}
+
+/*.boxAir*/
+/*{*/
+/*    background-color: lightblue;*/
+/*}*/
+
+.boxHole
+{
+    background-color: purple;
+}
+.boxPlant
+{
+    background-color: green;
+}
+.boxLadder
+{
+    background-color: brown;
+}
+.boxWetLadder
+{
+        /*background-color: #00bfff;*/
+    background-color: #420000;
+}
+
+
+body
+{
+    background-color: lightblue;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
